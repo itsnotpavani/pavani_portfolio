@@ -1,0 +1,104 @@
+body{font-family: Montserrat;}
+.col div{width:5rem;
+   height:5rem;
+   background-color: #FEECE9;
+   transform: rotate(45deg);
+   transition: transform 5s linear , background-color 0.5s linear 2s ;
+
+   margin-top: 1rem;
+   }
+.pattern:hover>.col>div{transform: rotate(360deg);
+                        background-color: white;}
+
+.pattern:hover{background-color: #FEECE9;}
+
+.pattern{display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         transition: background-color 0.5s linear 2s;}
+.intro{z-index: 2;
+     position: absolute;
+     left:30%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     top:30%;
+     background-color: white;
+     width:36rem;
+     height:20rem;
+
+     border-radius: 20px;
+     box-shadow: 0px 3px 10px 5px rgba(0,0,0,0.3);
+     }
+.navbar{position:fixed;
+        top:0;
+        width:100%;
+        z-index:10;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color:#FF5C58;
+        color:white;
+        align-items: center;
+      }
+
+.aboutme{height:70vh;
+         width:95vh;
+         box-shadow: 0px 3px 10px 5px rgba(0,0,0,0.2);
+         font-size:1.5rem;
+         padding-left: 5%;
+         border-radius: 10px;
+         margin-left: 20%;
+         }
+a{text-decoration:none;
+  font-weight: 500;
+  color:white;
+     }
+
+button{background-color: #FF5C58;
+      color:white;
+      border:none;
+      padding:1rem;
+      border-radius: 10px;
+      transition:background-color 0.3s linear;
+      width:8rem;
+    }
+button:hover{background-color:white;
+color:#FF5C58;
+box-shadow: 2px 3px 5px rgba(0,0,0,0.4);
+
+}
+
+.button{display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:100%;}
+.info{display: flex;
+     flex-direction: column;
+      justify-content: center;
+
+      margin-left: 1rem;}
+
+img{border-radius: 20px;}
+p{max-width: 40rem;
+  font-size:1.3rem;
+  line-height: 40px;
+  }
+
+.Footer>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Contacts>div{display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin-right: 1rem;
+}
+.Footer{
+  background-color:#FF5C58;
+  margin-top: 2rem;
+
+}
